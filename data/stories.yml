@@ -1,0 +1,88 @@
+version: "3.1"
+
+stories:
+
+- story: A path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: B path 1
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: C path 2
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: D path
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: E path
+  steps:
+  - intent: AI_service
+  - action: utter_AI_service
+
+- story: F path
+  steps:
+  - intent: datalabeling_service
+  - action: utter_datalabeling_service
+
+- story: G path
+  steps:
+  - intent: integrateAI_service
+  - action: utter_intergrateAI_service
+
+- story: H path
+  steps:
+  - intent: dataanalysis_service
+  - action: utter_datanalysis_service
+
+- story: J path
+  steps:
+  - intent: company_information
+  - action: utter_company_information
+
+- story: K path
+  steps:
+  - intent: software_service
+  - action: utter_software_service
+
+
+- story: L path
+  steps:
+  - intent: website_service
+  - action: utter_website_service
+
+
+- story: M path
+  steps:
+  - intent: web_application_service
+  - action: utter_web_application_service
+
+
+- story: N path
+  steps:
+  - intent: mobile_application_service
+  - action: utter_mobile_application_service
+
+- story: O path
+  steps:
+  - intent: sorry
+  - action: utter_sorry
+
+- story: P path
+  steps:
+  - intent: contact
+  - action: utter_contact
+  
+- story: I path
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+

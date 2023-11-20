@@ -1,0 +1,124 @@
+version: "3.1"
+
+nlu:
+- intent: goodbye
+  examples: |    
+    - goodbye
+    - tạm biệt bạn
+    - tạm biệt
+    - Tạm biệt, hẹn gặp lại!
+    - hẹn gặp lại
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - xin chào 
+    - chào
+    - chào bạn
+    - xin chào bạn
+    - cậu là ai thế ?
+
+- intent: thank_you
+  examples: |
+    - thank you
+    - cảm ơn
+    - cảm ơn bạn
+    - cảm ơn nhiều nhé
+    - cảm ơn bạn nhiều
+
+- intent: sorry
+  examples: |
+    - bạn trả lời không đúng
+    - bạn trả lời sai rồi
+    - non vậy
+    - gà vậy
+
+- intent: help
+  examples: |
+    - Bạn có thể giúp tôi tìm thông tin về dịch vụ này được không?
+    - bạn có thể làm được gì
+    - cho tôi biết bạn có thể làm được gì
+    - bạn có thể giúp tôi chứ
+    - bạn có thể trả lời câu hỏi của tôi chứ
+
+- intent: AI_service
+  examples: |
+    - Công ty bạn có thể cung cấp dịch vụ AI gì 
+    - có những dịch vụ AI gì
+    - có những dịch vụ trí tuệ nhân tạo gì?
+    - hỗ trợ dịch vụ AI
+
+- intent: datalabeling_service
+  examples: |
+    - Công ty bạn có thể cung cấp dịch vụ gán nhãn dữ liệu gì 
+    - có những dịch vụ chú thích dữ liệu gì
+    - hỗ trợ dịch vụ data labeling 
+    - hỗ trợ dịch vụ gán nhãn dữ liệu
+
+- intent: integrateAI_service
+  examples: |
+    - tôi muốn làm chatbot cho trang web của tôi
+    - tôi muốn có thêm bot hỗ trợ trang web cho công ty tôi
+    - Công ty bạn có thể tích hợp AI vào doanh nghiệp không?
+    - có thể tích hợp AI gì vào doanh nghiệp?
+    - Hỗ trợ dịch vụ tích hợp AI vào doanh nghiệp
+    - Hỗ trợ dịch vụ tích hợp trí tuệ nhân tạo vào doanh nghiệp
+
+- intent: dataanalysis_service
+  examples: |
+    - Công ty bạn có thể cung cấp dịch vụ data analysis gì 
+    - Công ty bạn có thể cung cấp dịch vụ phân tích dữ liệu gì 
+    - hỗ trợ dịch vụ data analysis
+    - hỗ trợ dịch vụ phân tích dữ liệu
+
+- intent: company_information
+  examples: |
+    - Giới thiệu về công ty Imtatech
+    - Công ty Imtatech là gì?
+    - Giới thiệu về công ty
+
+- intent: contact
+  examples: |
+    - địa chỉ web của công ty là
+    - email của công ty là
+    - địa chỉ công ty ở đâu
+    - hòm thư điện tử của công ty là
+    - đường dây nóng của công ty là
+
+- intent: software_service
+  examples: |
+    - Có những dịch vụ phần mềm gì?
+    - Bên phần mềm cung cấp dịch vụ gì?
+    - Công ty cung cấp dịch vụ phần mềm gì?
+    - Công ty cung cấp dịch vụ software gì?
+
+- intent: website_service
+  examples: |
+    - Tôi muốn làm một trang web
+    - Tôi cần thiết kế một website
+    - Tớ cần hỗ trợ thiết kế website
+    - Dịch vụ thiết kế website
+
+- intent: web_application_service
+  examples: |
+    - Tôi muốn làm một trang web ứng dụng
+    - Tôi cần thiết kế một web ứng dụng
+    - Tớ cần hỗ trợ thiết kế web application
+    - Dịch vụ thiết kế ứng dụng web
+
+- intent: mobile_application_service
+  examples: |
+    - Tôi muốn làm một ứng dụng điện thoại
+    - Tôi cần thiết kế một ứng dụng
+    - Tớ cần hỗ trợ thiết kế mobile application
+    - Dịch vụ thiết kế ứng dụng điện thoại
+
+- intent: out_of_scope
+  examples: |
+    - Cách tán gái hiệu quả
+    - Vãi cả đạn
+    - Hết cứu
+    - Chịu rồi
+    - Kể câu chuyện
+
