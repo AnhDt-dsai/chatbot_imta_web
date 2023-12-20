@@ -20,18 +20,35 @@ intents:
 
 responses:
   utter_help:
-  - text: "Tớ có thể hỗ trợ bạn các tìm hiểu các dịch vụ AI của công ty Imtatech  \n Ví dụ như: \n- Giới thiệu về công ty Imtatech \n- Có những dịch vụ phần mềm gì? \n- Có những dịch vụ AI gì?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Tớ có thể hỗ trợ bạn các tìm hiểu các dịch vụ của công ty Imtatech  \n Ví dụ như:"
+    buttons:
+    - title: "- Giới thiệu về công ty Imtatech"
+      payload: "Giới thiệu về công ty Imtatech"
+    - title: "- Có những dịch vụ phần mềm gì?"
+      payload: "Có những dịch vụ phần mềm gì?" 
+    - title: "- Có những dịch vụ AI gì?"
+      payload: "Có những dịch vụ AI gì?"
 
   utter_goodbye:
   - text: "Nếu cậu cần hỗ trợ thêm hãy liên hệ trực tiếp với chúng tớ. Mong gặp lại cậu!\n https://www.imtatech.com/lien-he"
 
   utter_greet:
   - text: "Xin chào, Tớ là Cá Ngừ - chatbot tự động. Tớ có thể giúp gì cho cậu khum?"
+    buttons:
+    - title: "- Giới thiệu về công ty Imtatech"
+      payload: "Giới thiệu về công ty Imtatech"
+    - title: "- Bạn có thể làm được gì?"
+      payload: "Bạn có thể làm được gì?" 
+    - title: "- Có những dịch vụ AI gì?"
+      payload: "Có những dịch vụ AI gì?"
   - text: "Tớ là Cá Ngừ - chatbot tự động. Tớ có thể giúp gì cho cậu khum?"
+    buttons:
+    - title: "- Giới thiệu về công ty Imtatech"
+      payload: "Giới thiệu về công ty Imtatech"
+    - title: "- Bạn có thể làm được gì?"
+      payload: "Bạn có thể làm được gì?" 
+    - title: "- Có những dịch vụ AI gì?"
+      payload: "Có những dịch vụ AI gì?"
 
   utter_thank_you:
   - text: "Chuyện nhỏ thôi ^^"
@@ -74,10 +91,10 @@ responses:
   utter_mobile_application_service:
   - text: "cả cái này cũng chưa biết viết gì"
 
-  utter_out_of_scope:
-  - text: "Sorry, try again"
 
 
+actions:
+- action_chatgpt_default_fallback
 
 session_config:
   session_expiration_time: 60

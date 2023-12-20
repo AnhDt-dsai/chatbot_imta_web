@@ -80,9 +80,5 @@ stories:
   - intent: contact
   - action: utter_contact
   
-- story: I path
-  steps:
-  - intent: out_of_scope
-  - action: utter_out_of_scope
 
 

@@ -114,11 +114,5 @@ nlu:
     - Tớ cần hỗ trợ thiết kế mobile application
     - Dịch vụ thiết kế ứng dụng điện thoại
 
-- intent: out_of_scope
-  examples: |
-    - Cách tán gái hiệu quả
-    - Vãi cả đạn
-    - Hết cứu
-    - Chịu rồi
-    - Kể câu chuyện
+
 
